@@ -72,7 +72,7 @@ function showImage(index) {
             card.appendChild(text);
         } else {
             let img = document.createElement("img");
-            img.src = `../imgTHRM/THRM${index}.jpg`;
+            img.src = `imgTHRM/THRM${index}.jpg`;
             img.style.maxWidth = "100%";
             card.appendChild(img);
         }
