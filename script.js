@@ -61,6 +61,7 @@ function showImage(index) {
         text.style.wordBreak = "break-word"; // coupe les mots si besoin pour éviter tout débordement
         text.style.overflow = "hidden";     // (optionnel) cache tout débordement
         text.style.maxWidth = "100%";       // s’assure qu’il reste dans sa boîte
+        text.style.fontSize = "1.5rem";
         
         card.appendChild(text);
     }else{
