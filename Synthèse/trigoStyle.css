@@ -1,0 +1,27 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: fit-content;
+}
+
+.formula {
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.2s ease;
+}
+
+.formula:hover {
+  color: #007acc;
+}
+
+.blank {
+  display: inline-block;
+  border-bottom: 2px solid black;
+  min-width: 60px;
+  height: 1em;
+  vertical-align: middle;
+  cursor: pointer;
+  margin: 0 3px;
+}
